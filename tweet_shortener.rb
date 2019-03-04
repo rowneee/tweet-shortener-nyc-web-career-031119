@@ -38,4 +38,6 @@ def selective_tweet_shortener(tweet)
   end
 end
 
-def selective_tweet_truncator
+def selective_tweet_truncator(tweet)
+  if 
+end
