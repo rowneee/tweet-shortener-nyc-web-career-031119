@@ -38,4 +38,5 @@ def selective_tweet_truncator(tweet)
   else
     new_tweet << word_substituter(tweet)
   end
+  new_tweet
 end
