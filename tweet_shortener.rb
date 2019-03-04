@@ -26,6 +26,10 @@ end
 
 def bulk_tweet_shortener(array)
   array.each do |element|
-    puts "#{element}"
+    puts word_substituter(element)
   end
+end 
+
+
+  
 end
