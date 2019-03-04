@@ -14,14 +14,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
-    string = tweet.split.map do |word|
-        if dictionary.keys.include?(word.downcase)
-            word = dictionary[word.downcase]
-        else
-            word
-        end
-    end
-    puts string.join(" ")
+tweet.split.collect {|word| dictionary.keys.include?(word.downcase) ? word = dictionary[word.downcase] : word }.join(" ")
 end
 
 def bulk_tweet_shortener(array)
