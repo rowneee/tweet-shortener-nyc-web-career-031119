@@ -39,5 +39,5 @@ def selective_tweet_shortener(tweet)
 end
 
 def selective_tweet_truncator(tweet)
-  if 
+  selective_tweet_shortener.length 
 end
