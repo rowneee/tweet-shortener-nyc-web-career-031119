@@ -33,7 +33,7 @@ end
 
 def selective_tweet_truncator(tweet)
   if word_substituter(tweet).length > 140 
-    word_substituter(tweet)[1..139] + ("...")
+    word_substituter(tweet)[1..139] + "..."
   else
     word_substituter(tweet)
   end
