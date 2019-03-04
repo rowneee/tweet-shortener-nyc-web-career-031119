@@ -40,5 +40,5 @@ end
 
 def selective_tweet_truncator(tweet)
   if word_substituter(tweet).length > 140 
-    word_substituter(tweet).
+    word_substituter(
 end
