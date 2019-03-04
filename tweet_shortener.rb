@@ -31,8 +31,7 @@ def bulk_tweet_shortener(array)
 end 
 
 def selective_tweet_shortener(tweet)
-  tweet.split.each do |word|
-    if tweet.length > 140
+  tweet.length > 140
       
   end
 end
